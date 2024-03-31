@@ -3,8 +3,8 @@ on:
   push:
     branches:
      - main
-  pull_repquest:
-    bransches:
+  pull_request:
+    branches:
       - main
 jobs:
    testjob:
@@ -12,5 +12,5 @@ jobs:
      steps:
       - uses: actions/checkout@v2
       - name: Say hello
-        run: echo "Hello Worls"
+        run: echo "Hello World"
         shell: bash
