@@ -15,7 +15,7 @@ jobs:
       - name: Install Terraform
         uses: little-core-labs/install-terraform@v2.0.0
         with:
-          version: "latest"
+          version: "1.9.1"
           
       - name: Say hello
         run: echo "Hello World"
