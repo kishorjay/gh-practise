@@ -18,5 +18,5 @@ jobs:
           version: "1.9.1"
           
       - name: Say hello
-        run: echo "Hello World"
+        run: terraform version
         shell: bash
